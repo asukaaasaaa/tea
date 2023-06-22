@@ -12,7 +12,16 @@ devise_for :admin, skip: [:registrations, :passwords] ,controllers: {
   sessions: "admin/sessions"
 }
 
-  root to: "homes#top"
-  get "homes/about"=>"homes#about", as: 'about'
+ scope module: :public do
+  root to: 'homes#top'
+  get '/about', to: 'homes#about'
+
+  resources :post_teas, only:[:index, :new, :create, :show, :edit, :update, :destroy]
+ end
+
+ namespace :admin do
+  root to: 'homes#top'
+  resources :genres, only: [:index, :create, :edit, :update]
+end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
