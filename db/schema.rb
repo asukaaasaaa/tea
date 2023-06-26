@@ -76,7 +76,7 @@ ActiveRecord::Schema.define(version: 2023_06_22_071349) do
     t.integer "customer_id"
     t.string "title"
     t.text "introduction"
-    t.string "kind"
+    t.integer "genre_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

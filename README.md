@@ -1,24 +1,51 @@
-# README
+#README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# サイト名
+Tea room
 
-Things you may want to cover:
 
-* Ruby version
+## サイト概要
+世界中様々な”お茶”の感想を投稿するSNSです。
 
-* System dependencies
+## サイトテーマ
+何百種類もあるお茶について、まだ知らないお茶を誰かの投稿をきっかけに知ることができ、
+自分もお茶の感想について投稿できる。お茶専門のSNSです。
 
-* Configuration
+## テーマを選んだ理由
+お茶の種類は世界中にたくさんあり、名前からは想像できない味もあります。
+お茶専門のSNSはないため、気軽にお茶が好きな人同士が交流できる場があると良いと思い作成しました。
 
-* Database creation
+##ターゲットユーザー
+お茶が好きな人・お茶に興味がある人
 
-* Database initialization
+## 主な利用シーン
+お茶の感想を共有するとき・色々なお茶を探すとき
 
-* How to run the test suite
+## 使用している言語フレームワークのバージョン
+ - ruby 3.1.2
+ - Rails 6.1.7.3
+ - Bootstrap v4.5.3
 
-* Services (job queues, cache servers, search engines, etc.)
+## 実装した機能
+* ユーザー
+ - ゲストログイン
+ - 会員登録、ログイン・ログアウト、退会
+ - 会員情報の編集
+ - 投稿機能
+ - 投稿・ユーザー検索
+ - 投稿へのいいね（一覧）
+ - 投稿へのコメント
+ - フォロー機能
+ - 他人の投稿を自分のタイムラインで共有
 
-* Deployment instructions
+* 管理者
+ - 会員一覧
+ - ユーザーの利用停止
 
-* ...
+## 使用方法
+* 管理者ページのログインについて
+  - 初期段階での管理者ページのログインに必要なメールアドレス及びパスワードは下記です。
+    - メールアドレス：
+    - パスワード：
+
+## 作成者アカウント

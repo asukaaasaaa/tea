@@ -4,7 +4,7 @@ class CreatePostTeas < ActiveRecord::Migration[6.1]
       t.integer :customer_id
       t.string :title
       t.text :introduction
-      t.string :kind
+      t.integer :genre_id
 
       t.timestamps
     end
