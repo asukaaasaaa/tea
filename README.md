@@ -28,24 +28,30 @@ Tea room
 
 ## 実装した機能
 * ユーザー
- - ゲストログイン
- - 会員登録、ログイン・ログアウト、退会
- - 会員情報の編集
- - 投稿機能
- - 投稿・ユーザー検索
- - 投稿へのいいね（一覧）
- - 投稿へのコメント
- - フォロー機能
- - 他人の投稿を自分のタイムラインで共有
+  - ゲストログイン
+  - 会員登録、ログイン・ログアウト、退会
+  - 会員情報の編集
+  - 投稿機能
+  - 投稿・ユーザー検索
+  - 投稿へのいいね（一覧）
+  - 投稿へのコメント
+  - フォロー機能
+  - 他人の投稿を自分のタイムラインで共有
 
 * 管理者
- - 会員一覧
- - ユーザーの利用停止
+  - 会員一覧
+  - ユーザーの利用停止
 
 ## 使用方法
 * 管理者ページのログインについて
   - 初期段階での管理者ページのログインに必要なメールアドレス及びパスワードは下記です。
-    - メールアドレス：
-    - パスワード：
+    - メールアドレス：admin@example.com
+    - パスワード：admin1
 
-## 作成者アカウント
+## 設計書
+* ER図
+   - https://drive.google.com/file/d/11s-QwoScpTajQKbwAXy-K634zizBT_Os/view?usp=sharing
+* テーブル定義書
+   - https://docs.google.com/spreadsheets/d/1kVeIDZF6PcpOWK4t8yxr0ZnKGELF9XlEN1f79NlcajE/edit?usp=sharing
+* アプリケーション詳細設計書
+   - https://docs.google.com/spreadsheets/d/1EcjlruEp_ZlwFMFoQHNnHh0YBSHuk0pm2MgQQnE3bpk/edit?usp=sharing
